@@ -1,0 +1,17 @@
+Shopping List
+-----------------------------
+Item: Price: Quantity
+-----------------------------
+Belt: 300: 1
+Shoes: 1500: 1
+Jean Trouser: 200: 2
+Khaki Trouser: 200: 2
+Pendant: 300: 1
+Tshirts: 200: 2
+Long Sleeve Shirts: 200: 2
+Socks: 50: 2
+Watch: 350: 1
+-----------------------------
+Total: Kshs. 4150.0
+
+Last edited: 2024-08-23 12:29:17

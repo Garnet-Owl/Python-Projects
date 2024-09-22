@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garinex Steel Kitchens</title>
+    <link rel="stylesheet" href="take1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">Garinex Steel Kitchens</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section with carousel -->
+        <section id="hero" class="jumbotron text-center">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsxFwhvpOi67V0PN34BlANO8FOZdqunUOIYg&s" class="d-block w-100" alt="Project 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbEcgBg4jKfYHKJqTdXZUMZKX4HwiqacYAiw&s" class="d-block w-100" alt="Project 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTDQ2wvM6TbG0xlBqxShy5qawhQ26IDVjyFA&s" class="d-block w-100" alt="Project 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://media.istockphoto.com/id/511243463/photo/work-surface-and-kitchen-equipment.jpg?s=612x612&w=0&k=20&c=DMmmWGnL-m0qxuT7uhoIHvLZuaIp_5ZdjkRC5WICmuU=" class="d-block w-100" alt="Project 4">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <h1 class="display-4 mt-4">Welcome to Garinex Steel Kitchens</h1>
+            <p class="lead">Your go-to supplier for reliable and efficient commercial kitchen equipment.</p>
+            <button class="btn btn-primary btn-lg" onclick="scrollToSection('services')">Explore Our Services</button>
+        </section>
+
+        <!-- About section -->
+        <section id="about" class="container">
+            <h2>About Us</h2>
+            <p>Garinex Steel Kitchens offers a wide range of fabricated and imported commercial kitchen, laundry, and cold-room equipment.</p>
+            <p>Experts of Stainless Steel and Mild Steel Fabrications and Imported Kitchen Equipment. We customize equipment according to our client’s specifications. Tell us, we draw it, build it, and deliver it for free within Nairobi.</p>
+        </section>
+
+        <!-- Services section -->
+        <section id="services" class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Importation of Commercial Kitchen Equipment</li>
+                <li>Organizing a Site Visit</li>
+                <li>Preparing a Floor Plan</li>
+                <li>Servicing Layout and Bill of Quantities</li>
+                <li>Fabrication of Kitchen Equipment</li>
+                <li>Installation and Commissioning</li>
+                <li>Servicing, Maintenance and Repair of Equipment</li>
+                <li>Free Delivery within Nairobi</li>
+            </ul>
+        </section>
+
+        <!-- Products section -->
+        <section id="products" class="container">
+            <h2>Our Products</h2>
+            <ul>
+                <li>Display Equipment</li>
+                <li>Bakery Equipment</li>
+                <li>Refrigeration Equipment</li>
+                <li>Dish Washing Equipment</li>
+                <li>Laundry Equipment</li>
+                <li>Food Processing Equipment</li>
+                <li>Air Conditioning Equipment</li>
+                <li>Mortuary Equipment</li>
+            </ul>
+        </section>
+
+        <!-- Testimonials section -->
+        <section id="testimonials" class="container">
+            <h2>Testimonials</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <blockquote>"Great service and quality products!"</blockquote>
+                    <cite>- John Doe</cite>
+                </div>
+                <div class="col-md-4">
+                    <blockquote>"Highly recommend for any commercial kitchen needs."</blockquote>
+                    <cite>- Jane Smith</cite>
+                </div>
+                <div class="col-md-4">
+                    <blockquote>"Professional, reliable, and efficient."</blockquote>
+                    <cite>- Mark Wilson</cite>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="container">
+            <h2>Contact Us</h2>
+            <p>Tel: 0112 714616</p>
+            <p>Email: sales@garinexsteelkitchens.com</p>
+            <p>Location: Nanyuki Rd, Nairobi</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 Garinex Steel Kitchens. All rights reserved.</p>
+        <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="explo1.js"></script>
+</body>
+</html>
